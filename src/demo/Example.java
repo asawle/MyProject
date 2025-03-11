@@ -17,8 +17,8 @@ public class Example {
 		Map<String, Long> count=ls.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
 		
 		System.out.println(count);
+		System.out.println("welcome to Goa");
 		
-
 	}
 
 }
